@@ -5,49 +5,42 @@
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #3c92fa;
-    }
-    
-    *{
+}
+
+* {
     margin: 0;
     padding: 0;
-    }
-    
-    body{
+}
+
+body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-    }
-    .principal{
-background-image: url("img/Background.png");
-background-repeat: no-repeat;
-background-size: contain;
-align-items: center;
-text-align: center;
+}
 
-    }
-    .container {
-height: 100vh;
-display: grid;
-grid-template-columns: 50% 50%;
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
 
 }
-.container_caixa{
-    mangin:0 6em;
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
 }
-    
 
+.container__caixa {
+    mangin: 0 6em;
+}
 
+.container__imagem {
+margin: 1em 0 2em;
 
-
-
-    
-
-
-
-
-
-
-
-
+}
